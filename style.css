@@ -9,7 +9,6 @@
 
 body {
     height: 100vh;
-
     background-image: url("./img/hero-desktop-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,11 +19,11 @@ main {
     height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, rgba(5, 19, 94, 0.41) 0%, #05135E 100%);
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 0 16px;
 }
 
 .container {
@@ -55,3 +54,54 @@ span {
     align-items: center;
     gap: 48px;
 }
+
+/* === TABLET === */
+@media (max-width: 991px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .container-links {
+        gap: 32px;
+        flex-wrap: wrap;
+
+    }
+}
+
+/* === MOBILE === */
+@media (max-width: 575px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container-links {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    body {
+        background-position: top center;
+        background-size: cover;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    br{
+        display: none;
+    }
+
+    .logo{
+        width: 40%;
+    }
+}
+
