@@ -90,18 +90,20 @@ span {
     body {
         background-position: top center;
         background-size: cover;
+        min-height: 100vh;
     }
 
     main {
         padding: 0 12px;
+        min-height: 100vh;
     }
 
-    br{
+    br {
         display: none;
     }
 
-    .logo{
+    .logo {
         width: 40%;
+        
     }
 }
-
