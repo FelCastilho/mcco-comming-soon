@@ -91,11 +91,14 @@ span {
         background-position: top center;
         background-size: cover;
         min-height: 100vh;
+        overflow-y: hidden;
     }
 
     main {
         padding: 0 12px;
         min-height: 100vh;
+        overflow-y: hidden;
+
     }
 
     br {
@@ -104,6 +107,5 @@ span {
 
     .logo {
         width: 40%;
-        
     }
 }
